@@ -31,7 +31,14 @@ The "Actual Budget" application is a robust personal finance tool designed to he
 
 
 
-https://github.com/user-attachments/assets/5a8083f3-a4b3-4957-b925-6bd55a1584d9
+<h1>Pre-Requisites</h1>
+<ol>
+<li>Operating System: Ubuntu (or any compatible Linux distribution) installed within a VirtualBox environment.</li>
+<li>Required Software and Tools: Docker (including Docker CE, Docker Compose, and containerd) and Git for version control (installed using sudo apt) along with cURL for downloading Docker GPG keys.</li>
+<li>System Requirements: Adequate disk space to install Docker and create working directories for the "Actual Budget" application and a sufficient memory and CPU resources to run Docker containers smoothly.</li>
+<li>File System Configuration: Pre-created working directories (~/docker/actualbudget/data) for storing application data and a valid config.json file, even if it’s initially empty. Correct ownership and permissions set for the directories (chown and chmod commands).</li>
+<li>Docker Image and Port Setup: The Docker image for the "Actual Budget" application (actualbudget/actual-server) must be available for download. Port 5006 on the host system should be free and open for application access.</li>
+</ol>
 
 
 
@@ -109,3 +116,33 @@ docker run -d --name actualbudget -p 5006:5006 -v ~/docker/actualbudget/config.j
 ```
 docker ps
 ```
+
+
+
+
+<h1>Steps to Access the Application - Actual Budget</h1>
+<ol>
+<li>Open the browser and navigate to localhost:5006.</li>
+<li>Click on the Advanced Options link.</li>
+<li>Check the "I understand the risks" box > Click Open Actual.</li>
+<li>Enter and confirm the password.</li>
+<li>Complete the installation and log in then, navigate to "Reports".</li>
+</ol>
+
+
+
+
+<h1>Video</h1>
+
+https://github.com/user-attachments/assets/d755fb48-7443-47be-8247-5b8bb0e4673c
+
+
+
+
+<h1>Acknowledgements</h1>
+
+Special thanks to:
+<ol>
+<li>Prof. Ashok Harnal (Faculty - Information Systems, FORE School of Management): For sharing valuable insights on Docker-based deployment techniques.</li>
+<li>i12bretro (YouTube Video - https://youtu.be/LOsnghXY3uU?si=XOiK6oTBPUMD3ZZZ): For providing a video tutorial that guided the successful Docker deployment on Ubuntu.</li>
+</ol>
