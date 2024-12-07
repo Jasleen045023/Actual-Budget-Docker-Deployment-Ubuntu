@@ -144,5 +144,5 @@ https://github.com/user-attachments/assets/d755fb48-7443-47be-8247-5b8bb0e4673c
 Special thanks to:
 <ol>
 <li>Prof. Ashok Harnal (Faculty - Information Systems, FORE School of Management): For sharing valuable insights on Docker-based deployment techniques.</li>
-[i12bretro](https://github.com/i12bretro): For providing a video tutorial that guided the successful Docker deployment on Ubuntu.</li>
+<li> [i12bretro](https://github.com/i12bretro) : For providing a video tutorial that guided the successful Docker deployment on Ubuntu.</li>
 </ol>
